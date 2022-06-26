@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Daniel Pinto">
+    <meta name="description" content="Prueba - Viajes Chile">
+    <meta name="keywords" content="viajes Chile, turismo, viajes">
+    <meta name="robots" content="index" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Oswald:wght@300;400&display=swap"
+        rel="stylesheet">
+
+    <!--Bootstrap CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--Carousel CDN (Styling)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--Icons CDN (Styling)-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <title>Viajes Chile</title>
+</head>
+
+<body class="ric-fonts">
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand logo" href="#">Viajes Chile</a><img class="icon-svg" src="./assets/img/viajes.svg"
+                alt="icon">
+                
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#recetas">Quienes somos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Nuestros servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="carouselherosection" class="carousel" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="./assets/img/daniel-arroyo-Y_Jie4EvKTU-unsplash.png"
+                        alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./assets/img/emerson-moretto-untdBWqmlVk-unsplash.png"
+                        alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./assets/img/vinicius-henrique-photography-tlCzxI2RQAc-unsplash.png"
+                        alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="./assets/img/caio-silva-5W8fDb8f89s-unsplash.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselherosection" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselherosection" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only"></span>
+            </a>
+        </div>
+        </div>
+
+    </header>
+
+    <!-- Sección Quienes somos -->
+    <section id="recetas" class="mb-5">
+        <div class="container">
+
+            <div class="row mx-3">
+                <hr>
+                <h2 class="subtitle  text-center mx-auto mb-4">¿Quienes somos?</h2>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card my-2 mx-auto">
+                        <img class="card-img-top" src="assets/img/recipe-card-1.png" alt="">
+                        <div class="row contenedor-icon">
+                            <i class="bi bi-binoculars-fill"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            
+                            <h5 class="card-title-01 fw-bold" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="'Haz click aquí para ver efecto toggle'">Lorem ipsum dolor</h5>
+                            <p class="card-text-01">sit amet consectetur adipisicing elit. Sapiente,
+                                unde nulla. Vitae placeat dolor non totam veniam reprehenderit nostrum cumque velit
+                                quos, quisquam, maiores, impedit incidunt. Aliquid dolores voluptatem quos?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card my-2 mx-auto">
+                        <img class="card-img-top" src="assets/img/recipe-card-2.png" alt="">
+                            <div class="card-body text-center">
+                            <h5 class="card-title-02 fw-bold" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="'Haz click aquí para ver efecto toggle'">Lorem ipsum dolor</h5>
+                            <p class="card-text-02">sit amet consectetur adipisicing elit. Sapiente,
+                                unde nulla. Vitae placeat dolor non totam veniam reprehenderit nostrum cumque velit
+                                quos, quisquam, maiores, impedit incidunt. Aliquid dolores voluptatem quos?</p>
+                                
+                        </div>
+                        <div class="row contenedor-icon">
+                            <i class="bi bi-signpost-2-fill"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card my-2 mx-auto">
+                        <img class="card-img-top" src="assets/img/recipe-card-3.png" alt="">
+                        <div class="row contenedor-icon">
+                            <i class="bi bi-pin-map-fill"></i>
+                        </div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title-03 fw-bold" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="'Haz click aquí para ver efecto toggle'">Lorem ipsum dolor</h5>
+                            <p class="card-text-03">sit amet consectetur adipisicing elit. Sapiente,
+                                unde nulla. Vitae placeat dolor non totam veniam reprehenderit nostrum cumque velit
+                                quos, quisquam, maiores, impedit incidunt. Aliquid dolores voluptatem quos?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- Sección nosotros -->
+    <section id="nosotros">
+        <div class="container">
+            <div class="row px-5 d-flex align-items-center">
+                <div class="col text-center">
+                    <h2 class="subtitle-w">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
+                        <p>y obtén las mejores recetas que tenemos en <span class="mencion-brand">Ricomida</span></p>
+                        <div>
+                            <button type="submit" class="btn btn-outline-light btn-lg mt-3">Empezar</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Receta -->
+    <section class="receta mb-5">
+        <div class="container">
+
+            <div class="row mx-3">
+                <hr>
+                <div class="col-xs-12 col-md-6  my-3">
+                    <h3 class="bloque d-inline-flex border-bottom border-dark">INGREDIENTES</h3>
+                    <p class="my-4">Masa</p>
+                    <p>20 gr de levadura seca instantánea</p>
+                    <p>1 cucharadita de azúcar</p>
+                    <p>500 ml agua tibia</p>
+                    <p>100 ml aceite vegetal</p>
+                    <p>4 cucharadas de aceite de oliva</p>
+                    <p>65 gr harina de maíz fina (chuchoca)</p>
+                    <p>2 cucharaditas de sal</p>
+                    <p>625 gr harina</p>
+                    <p class="my-4">Salsa</p>
+                    <p>5 cucharadas de aceite de oliva</p>
+                    <p>½ cebolla picada en cubos finos</p>
+                    <p>2 cucharaditas de sal</p>
+                    <p>3 cucharadas de Orégano Gourmet</p>
+                    <p>1 ½ cucharadas de Albahaca Gourmet</p>
+                    <p>2 tarro de tomates en cubos al natural</p>
+                    <p>2 cucharaditas de azúcar</p>
+                    <p class="my-4">Relleno</p>
+                    <p>½ cebolla, en cubos</p>
+                    <p>500 gr hojas de espinacas picadas</p>
+                    <p>400 gr de champiñones, laminados</p>
+                    <p>300 gr de queso mozarella</p>
+                    <p>4 cucharadas queso parmesano</p>
+                </div>
+
+                <div class="col-xs-12 col-md-6 my-3">
+                    <h3 class="bloque d-inline-flex border-bottom border-dark">PREPARACIÓN</h3>
+                    <p class="my-4">1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol
+                        grande. Dejar
+                        reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar
+                        bien.
+                        Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner
+                        en
+                        el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el
+                        mesón a
+                        medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado,
+                        tapar con
+                        un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar).
+                        Golpear la
+                        masa para que baje y luego dejar leudar por 40 minutos adicionales.</p>
+                    <p class="my-4"> 2. Mientras tanto preparar la salsa: Calentar 4 cucharadas de aceite en una
+                        olla a fuego medio.
+                        Agregar la cebolla, Orégano Gourmet, Albahaca Gourmet, sal y cocinar hasta que la cebolla
+                        esté dorada.
+                        Agregar el ajo y cocinar por 30 segundos. Agregar los tomates junto al jugo del tarro, a la
+                        mezcla de cebolla.
+                        Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y espesado, como 30
+                        minutos. Sazonar con sal y
+                        pimienta a gusto. Reservar. </p>
+                    <p class="my-4">3. Relleno: Cocinar las chalotas en el aceite de oliva hasta que estén
+                        transparentes. Agregar los champiñones
+                        y las espinacas, cocinar hasta que estén cocidos y se haya evaporado todo el líquido que
+                        hayan votado los vegetales. Reservar.</p>
+                    <p class="my-4"> 4. Calentar el horno a 220C.</p>
+                    <p class="my-4">5. Una vez que la masa haya reposado, dividirla en dos bolas. Estirar cada masa
+                        para cubrir dos
+                        moldes (desmontables) de 26 cm, hacer un borde de 5 cm con la masa. Dividir el relleno entre
+                        las dos
+                        pizza, tapar con el queso mozarella, luego terminar con la salsa de tomates y finalmente
+                        espolvorear el
+                        queso rallado.</p>
+                    <p class="my-4">6. Hornear por 35 a 40 minutos o hasta que el relleno esté caliente y la base
+                        esté
+                        esponjosa y dorada. Esperar unos minutos antes de desmoldar.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Sección recetas relacionadas -->
+    <section id="recetas" class="mb-5">
+        <div class="container">
+
+            <div class="row mx-3">
+                <hr>
+                <h2 class="subtitle  text-center mx-auto mb-4">RECETAS RELACIONADAS</h2>
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card my-2 mx-auto">
+                        <img class="card-img-top" src="assets/img/recipe-card-1.png" alt="Panqueques con manjar">
+                        <div class="card-body">
+                            <h5 class="card-title-01 fw-bold" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="'Haz click para ver efecto toggle'">PANQUEQUES CON MANJAR Y CREMA</h5>
+                            <p class="card-text-01">Mus enim elementum dignissim class eleifend justo, ut nunc magnis
+                                est vulputate nostra, blandit erat luctus faucibus orci.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card my-2 mx-auto">
+                        <img class="card-img-top" src="assets/img/recipe-card-2.png" alt="Tiramisú">
+                        <div class="card-body">
+                            <h5 class="card-title-02 fw-bold" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="'Haz click para ver efecto toggle'">TIRAMISÚ</h5>
+                            <p class="card-text-02">Congue fermentum dignissim rhoncus elementum ac nisi, proin
+                                phasellus lacinia sed faucibus mauris, taciti scelerisque nulla ornare consequat.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-6 col-lg-4">
+                    <div class="card my-2 mx-auto">
+                        <img class="card-img-top" src="assets/img/recipe-card-3.png" alt="Plateada">
+                        <div class="card-body">
+                            <h5 class="card-title-03 fw-bold" data-bs-toggle="tooltip" data-bs-placement="top"
+                                title="'Haz click para ver efecto toggle'">PLATEADA</h5>
+                            <p class="card-text-03">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam
+                                laoreet ac eleifend risus, urna auctor inceptos mattis dapibus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4 text-center mx-auto my-4">
+                    <h6 class="copyright">Ricomida</h6>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--Bootstrap Js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!-- Jquery CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Carruseul CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <!-- Jquery Local
+    <script src="assets/js/jquery-3.6.0.min.js"></script> -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
