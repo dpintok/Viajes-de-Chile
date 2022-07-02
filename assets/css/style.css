@@ -10,17 +10,11 @@ body.ric-fonts {
 
 /* MENU ======== */
 .header{
-  background: url(../img/bg-header.jpeg) no-repeat center;
-  background-size: cover;
-  min-height: 100vh;
+  background: 'none';
+  position: sticky;
+  
  
 }
-.navbar {
-    background-color: #1a4461;
-    
-}
-
-
 .navbar-brand.logo {
     font-family: 'Fascinate', cursive;
     font-size: 37px;
